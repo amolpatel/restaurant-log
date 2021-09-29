@@ -19,11 +19,11 @@ To get a local copy up and running follow these simple steps.
    ```
 2. Navigate to client directory, install npm packages, run server
    ```sh
-   $ cd client && npm install && npm run dev
+   $ cd restaurant-log/client && npm install && npm run dev
    ```
 3. Navigate to server directory, install npm packages, run server
    ```sh
-   $ cd server && npm install && npm run dev
+   $ cd restaurant-log/server && npm install && npm run dev
    ```   
 <!-- USAGE EXAMPLES -->
 ## Usage
