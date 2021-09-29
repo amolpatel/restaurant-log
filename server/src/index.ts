@@ -28,7 +28,7 @@ app.get('/reviews', async (req, res) => {
     const { id, visited } = req.params
     const rest = await prisma.restaurant.update({
       where: { id: Number(id) },
-      data: { visited: Boolean(visited) },
+      data: { visited: Boolean(visited == "true") },
     })
     res.json(rest)
   })
